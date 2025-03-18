@@ -1,0 +1,196 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: rgb(136, 130, 130)
+    
+}
+
+@media (max-width: 883px) {
+    body{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        background-color: rgba(88, 88, 92, 0.247);
+        
+    }
+}
+
+@media (max-width: 390px) {
+    body{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        background-color: red;
+        
+    }
+}
+
+
+@media (max-width: 883px){
+    textarea{
+        margin-left: 35px;
+        border-radius: 10px;
+        border: none;
+        padding-left: 10rem;
+        width: 7px;
+    }
+}
+.customer-info{
+    background-image: url(rave\ header.png);
+    background-position: center;
+    margin-left: 10rem;
+    margin-top: 5rem;
+    width: 50vw;
+    height: 80vh;
+    border-radius: 10px;
+    box-shadow: rgb(71, 67, 67) 0 15px  ;
+  
+}
+
+header{
+    display: flex;
+    margin-left: 80px;
+    margin-top: 2rem;
+}
+.first-header{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    margin-left: 30px;
+    color: rgb(202, 195, 195);
+    
+}
+hr{
+    margin-top: 25px;
+}
+
+.second-header{
+    margin-left: 12rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(158, 158, 144);
+}
+
+.third-header{
+    margin-left: 12rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(158, 158, 144);
+}
+
+.label-1{
+    color: rgb(156, 146, 146);
+    font-size: 20px;
+    margin-left: 35px;
+}
+
+.first-input{
+    display: flex;
+    
+    margin-top: 30px;
+}
+input{
+    padding: 10px;
+    padding-right:50px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 35px;
+}
+
+.other-name{
+    margin-left: 15rem;
+}
+
+label{
+    font-size: 20px;
+    color: rgb(156, 146, 146);
+    margin-left: 35px;
+}
+.label-2{
+    font-size: 20px;
+    color: rgb(156, 146, 146);
+    
+}
+
+textarea{
+    margin-left: 35px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10rem;
+}
+#country{    
+    font-size: 20px;
+    color: rgb(156, 146, 146);
+    margin-left: 35px;
+}
+#country-2{
+    padding: 10px;
+    padding-right: 9rem;
+    border-radius: 10px;
+    border: none;
+    margin-left: 35px;
+}
+.country{
+    display: flex;
+
+}
+
+.City{
+    margin-left: 15rem;
+  
+}
+.shipping{
+    background-color: blue;
+}
+.customer-infor{
+    background-color: white;
+    margin-top: 5rem;
+    background-position: center;
+    margin-left: rem;
+    margin-top: rem;
+    width: 30vw;
+    height: 80vh;
+    border-radius: 10px;
+    box-shadow: rgb(71, 67, 67) 0 15px  ;
+}
+
+#ships{
+    color: white;
+    margin-left: 19rem;
+    background-color: rgb(88, 88, 88);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#cart{
+    color: black;
+}
+
+#drop{
+    width: 5rem;
+    border-radius: 10px;
+}
+
+.items{
+    color: black;
+}
+
+.rex{
+    display: flex;
+}
+
+.prices{
+    margin-left: 20rem;
+    color: black;
+}
+
+.postal{
+    margin-top: 3em;
+}
